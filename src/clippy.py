@@ -14,6 +14,8 @@ os: windows
 and app.exe: clippy.exe
 os: linux
 and app.name: Clippy
+os: mac
+and app.bundle: com.github.andreasarvidsson.clippy
 """
 
 # This is used for development purposes
