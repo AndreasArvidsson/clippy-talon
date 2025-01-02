@@ -43,7 +43,7 @@ mod = Module()
 mod.list("clippy_search_type", desc="Clippy search types")
 
 
-@mod.capture(rule="<user.number_key> | {user.letter} [{user.letter}]")
+@mod.capture(rule="<user.number_key> | <user.letter> [<user.letter>]")
 def clippy_hint(m) -> str:
     with suppress(AttributeError):
         return str(m.number_key)
