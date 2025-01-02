@@ -11,7 +11,9 @@ mod.list("clippy_command_no_targets", desc="Clippy commands WITHOUT targets")
 
 mod.apps.clippy = r"""
 os: windows
-app.exe: clippy.exe
+and app.exe: clippy.exe
+os: linux
+and app.name: Clippy
 """
 
 # This is used for development purposes
