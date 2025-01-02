@@ -26,7 +26,6 @@ def on_ready():
     errors = []
     if missing_captures:
         errors.append(f"Missing captures: {', '.join(missing_captures)}")
-
     if missing_actions:
         errors.append(f"Missing actions: {', '.join(missing_actions)}")
     if errors:
