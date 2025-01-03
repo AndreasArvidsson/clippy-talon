@@ -47,6 +47,21 @@ For list of Clippy commands with one or multiple targets:
 -   `"clippy copy 2 items reverse air"`
     -   Copy two items: `a` and the one below in reverse order
 
+### Search targets
+
+-   `"clippy copy text"`
+    -   Copy first text item
+-   `"clippy copy image"`
+    -   Copy first image item
+-   `"clippy copy second text"`
+    -   Copy second text item
+-   `"clippy copy with <text>"`
+    -   Copy first text item containing `text`
+-   `"clippy copy second image"`
+    -   Copy second image item
+-   `"clippy copy second with <text>"`
+    -   Copy second text item containing `text`
+
 ### Paste only shorthands
 
 These are only supported for the paste action and mostly used when Clippy is hidden
