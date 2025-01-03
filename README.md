@@ -47,7 +47,7 @@ For list of Clippy commands with one or multiple targets:
 -   `"clippy copy 2 items reverse air"`
     -   Copy two items: `a` and the one below in reverse order
 
-### Search targets
+### Search target
 
 -   `"clippy copy text"`
     -   Copy first text item
