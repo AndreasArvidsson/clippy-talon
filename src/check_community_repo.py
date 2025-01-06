@@ -31,7 +31,7 @@ def on_ready():
     if errors:
         print("\n".join(errors))
         app.notify(
-            "Please install the community repository",
+            "Clippy: Please install the community repository",
             body="https://github.com/talonhub/community",
         )
 
