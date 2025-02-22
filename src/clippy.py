@@ -50,7 +50,7 @@ class Actions:
 
     def clippy_paste_first(count: int):
         """Paste first <count> clipboard items from Clippy in reverse order"""
-        target = ClippyPrimitiveTarget("1", count, True)
+        target = ClippyPrimitiveTarget("1", count, reverse=True)
         actions.user.clippy_command_with_targets("pasteItems", [target])
 
     def clippy_rename_items(targets: list[ClippyTarget], name: Optional[str] = None):
